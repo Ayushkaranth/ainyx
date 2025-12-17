@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --radius: 0.5rem;
+  }
+  
+  html {
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 240 4.9% 83.9%;
+    color-scheme: dark;
+  }
+}
+
+@layer base {
+  * { @apply border-border; }
+  body { @apply bg-background text-foreground; }
+}
+
+.react-flow__controls {
+  box-shadow: none !important;
+  border: 1px solid hsl(var(--border));
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+.react-flow__controls-button {
+  background-color: hsl(var(--card)) !important;
+  border-bottom: 1px solid hsl(var(--border)) !important;
+  fill: hsl(var(--foreground)) !important;
+}
+.react-flow__controls-button:last-child {
+            border-bottom: none !important;
+}
+.react-flow__controls-button:hover {
+  background-color: hsl(var(--accent)) !important;
+}
+.react-flow__attribution {
+    display: none;
+}
+
+.react-flow__edge-path {
+  stroke: #71717a !important; 
+  stroke-width: 2px !important;
+}
+
+.react-flow__connection-path {
+  stroke: #71717a !important;
+  stroke-width: 2px !important;
+}
