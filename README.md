@@ -9,7 +9,7 @@ A responsive, interactive graph visualization dashboard built for the Ainyx Solu
 * npm or yarn
 
 ### Deployed Url
-*https://ainyx.vercel.app/
+* https://ainyx.vercel.app/
 
 ### Installation
 1.  **Clone the repository**
