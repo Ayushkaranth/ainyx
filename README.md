@@ -8,11 +8,14 @@ A responsive, interactive graph visualization dashboard built for the Ainyx Solu
 * Node.js (v18 or higher)
 * npm or yarn
 
+### Deployed Url
+*https://ainyx.vercel.app/
+
 ### Installation
 1.  **Clone the repository**
     ```bash
-    git clone <your-repo-url>
-    cd ainyx-task
+    git clone https://github.com/Ayushkaranth/ainyx.git
+    cd ainyx-final
     ```
 
 2.  **Install dependencies**
