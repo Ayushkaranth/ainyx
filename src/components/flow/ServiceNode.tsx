@@ -32,6 +32,7 @@ const TabButton = ({
   </button>
 );
 
+ 
 export const ServiceNode = memo(({ data, selected }: NodeProps<AppNodeData>) => {
   const Icon = ICONS[data.type] || Server;
   const [activeTab, setActiveTab] = useState<MetricTab>('CPU');
